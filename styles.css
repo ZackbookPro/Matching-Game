@@ -1,0 +1,68 @@
+body {
+  background: peru;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.tiles {
+  margin: 48px auto;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  gap: 16px
+  
+}
+
+.tile {
+  height: 100px;
+  background-color: teal;
+  background-image: url(images/question.png);
+  border: 5px solid white;
+  cursor: pointer;
+  background-size: cover;
+}
+
+
+.scoreboard{
+  width: 15vw;
+  position: absolute;
+  line-height: 50px;
+  font-size: 30px;
+  top: 100px;
+  left: 130px;
+}
+
+.scoreboard p {
+  display: inline;
+}
+
+.welcome {
+  text-align: center;
+  width: 30vw;
+  margin: 15em auto;
+}
+
+
+.start-button {
+  display: block;
+  margin: 0 auto;
+  color: orange;
+  border: 1px solid white;
+  background-color: teal;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 7em;
+  height: 3em;
+}
+
+.reset-button {
+  color: orange;
+  border: 1px solid white;
+  background-color: teal;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 7em;
+  height: 3em;
+}
