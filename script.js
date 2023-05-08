@@ -37,7 +37,7 @@ const matchingGame = () => {
 	let score = '0'
 
 	//Array with all the image links or "cards"
-	const rappers = ["21-savage.jpg", "cardi-b.jpg", "cheif-keef.jpg", "doja-cat.jpg", "drake.jpg", "future.png", "gunna.jpg", "kodak-black.jpg", "lil-baby.jpg", "lil-nas-x.jpg", "lil-uzi.jpg", "lil-yachty.jpg", "megan.png", "moneybagg-yo.jpg", "nba-youngboy.png", "nicki.jpg", "tyler-the-creator.png", "young-thug.jpg"];
+	const rappers = ["Savage.jpg", "cardi-b.jpg", "cheif-keef.jpg", "doja-cat.jpg", "drake.jpg", "future.png", "gunna.jpg", "kodak-black.jpg", "lil-baby.jpg", "lil-nas-x.jpg", "lil-uzi.jpg", "lil-yachty.jpg", "megan.png", "moneybagg-yo.jpg", "nba-youngboy.png", "nicki.jpg", "tyler-the-creator.png", "young-thug.jpg"];
 
 	//This code creates a new array and pushes the contents of the rappers array inside of it x2. Then tileCount is assigned to the length of this new array.
 	const rappersPicklist = [...rappers, ...rappers];
